@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+<section class="page" style="background:pink;">
+<h1>PAGE 1</h1>
+<button onclick="nextPage()">Next</button>
+</section>
+
+<section class="page" style="background:lightblue;">
+<h1>PAGE 2</h1>
+<button onclick="prevPage()">Back</button>
+<button onclick="nextPage()">Next</button>
+</section>
+
+<section class="page" style="background:lightyellow;">
+<h1>PAGE 3</h1>
+<button onclick="prevPage()">Back</button>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
